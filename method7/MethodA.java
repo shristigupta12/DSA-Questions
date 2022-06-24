@@ -1,4 +1,4 @@
-package methods7;
+package method7;
 
 import org.w3c.dom.ls.LSOutput;
 

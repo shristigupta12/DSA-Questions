@@ -317,22 +317,7 @@ public class ArraysArrayList {
         System.out.println("The array form of integer num+k is : ");
         System.out.println(Arrays.toString(newArr));*/
 
-//      19. Maximum population year
-        System.out.print("Enter the total number of people in array : ");
-        int row = inp.nextInt();
-        int[][] arr = new int[row][2];
-        for (int i=0; i<row; i++) {
-            System.out.println("Enter the birth and death year of person " + (i + 1));
-            arr[row][0] = inp.nextInt();
-            arr[row][1] = inp.nextInt();
-        }
-        int[][] sortedArr = new int[row][2];
-        int min=arr[0][0];
-        for (int i=0;  i<row; i++){
-            if (arr[row][0]<min){
-                min = arr[row][0];
-            }
-        }
+
         
     }//----------------------------
 
@@ -406,5 +391,4 @@ public class ArraysArrayList {
             n = n*10+r;
         }
         return n;
-    }
-}
+}}

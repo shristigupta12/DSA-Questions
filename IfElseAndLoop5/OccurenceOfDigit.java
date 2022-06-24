@@ -1,8 +1,7 @@
-package lfElseAndLoops5;
+package IfElseAndLoop5;
 
 import java.util.Scanner;
-
-public class OccurenceOfADigit {
+public class OccurenceOfDigit {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
         System.out.print("Enter a number: ");

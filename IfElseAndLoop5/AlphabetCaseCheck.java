@@ -1,7 +1,6 @@
-package lfElseAndLoops5;
+package IfElseAndLoop5;
 
 import java.util.Scanner;
-
 public class AlphabetCaseCheck {
     public static void main(String[] args) {
         System.out.print("Enter a letter to check whether it is uppercase or lowercase: ");

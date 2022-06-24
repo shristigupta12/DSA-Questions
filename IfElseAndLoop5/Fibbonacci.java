@@ -1,8 +1,8 @@
-package lfElseAndLoops5;
+package IfElseAndLoop5;
 
 import java.util.Scanner;
 
-public class FibbonacciSeries {
+public class Fibbonacci {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
         System.out.print("Enter which fibonacci number you want to find: ");

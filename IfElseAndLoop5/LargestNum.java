@@ -1,4 +1,4 @@
-package lfElseAndLoops5;
+package IfElseAndLoop5;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package methods7;
+package method7;
 
 import java.util.Arrays;
 public class ScopingB {
