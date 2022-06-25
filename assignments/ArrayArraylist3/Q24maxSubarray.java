@@ -1,3 +1,4 @@
+package assignments.ArrayArraylist3;
 import java.util.Scanner;
 
 public class Q24maxSubarray{

@@ -2,7 +2,7 @@ package IfElseAndLoop5;
 import java.util.Scanner;
 
 public class ReversingNum {
-    public static void main(String[] args) {
+    public static void ReversingNumFunc() {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number: ");
         long num = input.nextLong();

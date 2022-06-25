@@ -2,7 +2,7 @@ package IfElseAndLoop5;
 
 import java.util.Scanner;
 public class OccurenceOfDigit {
-    public static void main(String[] args) {
+    public static void OccurenceOfDigitFunc() {
         Scanner inp = new Scanner(System.in);
         System.out.print("Enter a number: ");
         long num = inp.nextLong();
