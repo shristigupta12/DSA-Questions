@@ -25,6 +25,7 @@ Your solution must use only constant extra space.*/
         int target = inp.nextInt();
         int i1=0, i2 = 0;
         int i=0, j=0;
+        System.out.println(vec.get(0)); 
         while(i<size){
             j=i+1;
             while(j<size){
