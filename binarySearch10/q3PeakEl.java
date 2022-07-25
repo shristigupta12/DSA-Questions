@@ -11,7 +11,7 @@ public class q3PeakEl {
         System.out.print("Enter the size of array : ");
         int size = inp.nextInt();
         int[] arr = new int[size];
-        System.out.println("Enter the elements of a mountain array : ");
+        System.out.println("Enter the elements of mountain array : ");
         int s = 0;
         while(s<size){
             arr[s]= inp.nextInt();
@@ -22,8 +22,8 @@ public class q3PeakEl {
 public static int bSearch(int[] arr){
     int low = 0;
     int high = arr.length -1;
-    while(low<=high){
-        int mid = (low+high/2);
+    while(low<high){
+        int mid = (low+high)/2;
         if(arr[mid]>arr[mid+1]){
             high = mid;
         }else{
